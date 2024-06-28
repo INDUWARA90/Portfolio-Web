@@ -32,6 +32,7 @@
 
     .Navigation a:hover{
         text-decoration: none;
+        
     }
 
     .Navigation {
@@ -42,13 +43,85 @@
         left: 0;
         margin-left: -15px;
     }
-    .nav-link{
+    .nav-links{
+        background-color: transparent;
+        text-decoration: none;
+        border: 1px solid rgb(149, 149, 149);
         
-        border-bottom: 1px solid rgb(149, 149, 149);
-        border-top: 1px solid rgb(149, 149, 149);
-        background-color: rgb(199, 200, 200);
+       
        
     }
    
-
+    .homepage-container{
+        display: block;
+    }
+    .image-resize{
+        height: 80vh;
+        margin-left: 150px;
+    }
+    .button-dowanlod-CV{
+        margin-left: 1px;
+    }
 }
+
+
+ @media (max-width: 767.98px) { 
+    .button-dowanlod-CV{
+        display: block;
+        margin-top: 30px;
+        margin-left: 1px;
+    }
+    .image-resize{
+        height: 60vh;
+        margin-left: -40px;
+    }
+ }
+
+
+@media (max-width: 991.98px) { 
+    .button-dowanlod-CV{
+        display: block;
+        margin-top: 30px;
+        margin-left: 1px;
+    }
+    
+    .image-resize{
+        height: 80vh;
+    }
+}
+
+
+@media (max-width: 1199.98px) { 
+    .button-dowanlod-CV{
+        display: block;
+        margin-top: 30px;
+        margin-left: 1px;
+    }
+    .image-resize{
+        height: 70vh;
+    }
+ }
+
+ @media (max-width: 575.98px) {
+    .button-dowanlod-CV{
+        display: block;
+        margin-top: 30px;
+        margin-left: 1px;
+    }
+    .image-resize{
+        height: 70vh;
+      
+    }
+  }
+  @media (max-width: 476px) {
+    .button-dowanlod-CV{
+        display: block;
+        margin-top: 30px;
+        margin-left: 1px;
+    }
+    .image-resize{
+        height: 50vh;
+      
+    }
+    
+  }
