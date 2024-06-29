@@ -19,6 +19,7 @@
 
 
 /* ==============Navigation-bar================== */
+
 .Logo {
     text-decoration: none;
     cursor: default;
@@ -96,10 +97,6 @@
     box-shadow: 0 0 10px rgba(135,79,65, 0.9);
 }
 
-.homepage-image:hover{
-    box-shadow: 
-    0 0 40px rgba(135,79,65, 0.9);
-}
 
 .homepage-container{
     display: flex;
@@ -190,7 +187,6 @@
 
 .about-image{
     border-radius: 20px;
-    height: 50vh;
     background-color: #FBE9D0;
 }
 
