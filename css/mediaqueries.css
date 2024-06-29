@@ -73,7 +73,7 @@
     }
     .image-resize{
         height: 60vh;
-        margin-left: -40px;
+        margin-left: 42px;
     }
  }
 
@@ -98,7 +98,8 @@
         margin-left: 1px;
     }
     .image-resize{
-        height: 70vh;
+        height: 44vh;
+        margin-left: 54px;
     }
  }
 
@@ -109,7 +110,9 @@
         margin-left: 1px;
     }
     .image-resize{
-        height: 70vh;
+       
+        height: 45vh;
+        margin-left:29px ;
       
     }
   }
@@ -120,8 +123,23 @@
         margin-left: 1px;
     }
     .image-resize{
-        height: 50vh;
-      
+        height: 36vh;
+        margin-left:13px;
     }
     
   }
+
+  @media (max-width: 390px) {
+    .button-dowanlod-CV{
+        display: block;
+        margin-top: 30px;
+        margin-left: 1px;
+    }
+    .image-resize{
+        height: 25vh;
+        margin-left: 15px;
+    }
+    
+  }
+
+  
