@@ -1,7 +1,5 @@
 
 @media (max-width: 991.98px) {
-
-
     /* About */
     .about-details-contanier,
     .about-containers {
@@ -55,6 +53,7 @@
         height: 27vh;
         margin-left: 115px;
     }
+    
 
 }
 
