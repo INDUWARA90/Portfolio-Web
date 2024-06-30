@@ -236,3 +236,125 @@
     font-weight: bold;
     color: black;
 }
+
+/* Projects */
+#Projects{
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    border-radius: 28px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+    padding-bottom: 70px;
+    padding-top: 50px
+
+}
+
+.repo-button{
+    width: 440px;
+    padding: 7px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+}
+
+.demo-button{
+    width: 440px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.repo-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.demo-button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/*Contact ME  */
+
+.contaner-box{
+    width: 600px;
+    border-radius: 30px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.box{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 75%;
+
+}
+
+.box img{
+    height: 70px;
+}
+
+.box a{
+   text-decoration: none;
+   color: black;
+   font-weight: 700;
+
+}
+
+
+.box2{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+
+.box2 img{
+    height: 60px;
+    margin-left: -42px;
+    margin-right: 10px;
+}
+
+.box a{
+   text-decoration: none;
+   color: black;
+   font-weight: 700;
+   font-size: small;
+}
+
+.box2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+ 
+}
+
+.contaner-all{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* foooter */
+
+.Fotter-button{
+    width: 35px;
+    height: 35px;
+    margin-top: 30px;
+    background-color: blue;
+    border-radius: 4px;
+}
+
+
+.Fotter-button:hover{
+    
+    background-color:rgb(117, 117, 225) ;
+    
+}

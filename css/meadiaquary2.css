@@ -54,6 +54,13 @@
         margin-left: 115px;
     }
     
+    .contaner-box{
+       width: 450px;
+       
+    }
+    .contaner-box a{
+        font-size: x-small;
+    }
 
 }
 

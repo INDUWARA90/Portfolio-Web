@@ -25,14 +25,14 @@
 <body>
     <div class="conatainer-navgation-bar">
         <div><a href="" class="Logo"></a></div>
-        <div><a href="" class="Logo">INDUWARA</a></div>
+        <div><a href="" class="Logo" id="Logo">INDUWARA</a></div>
 
         <div>
             <nav class="Navigation">
                 <a href="#Home-section" class="nav-links active">Home</a>
                 <a href="#about" class="nav-links">about</a>
-                <a href="" class="nav-links">Projects</a>
-                <a href="" class="nav-links">Contact ME</a>
+                <a href="#Project" class="nav-links">Projects</a>
+                <a href="#ContactME" class="nav-links">Contact ME</a>
 
             </nav>
 
@@ -66,7 +66,7 @@
 
 
                         <button class="button-dowanlod-CV ">Download CV</button>
-                        <button class="button-Contact-me mb-5 mt-3">Contact Me</button>
+                        <button class="button-Contact-me mb-5 mt-3" onclick="location.href=`#ContactME`">Contact Me</button>
 
 
                     </p>
@@ -80,7 +80,7 @@
 
     </section>
 
-    <p style="display: flex; justify-content: flex-end; margin-right: 90px; margin-top: 50px;"><i class="ri-arrow-down-double-fill"></i></p>
+    <p style="display: flex; justify-content: flex-end; margin-right: 90px; margin-top: 50px;"><img src="asset/arrow.png" style="height: 30px;" onclick="location.href=`#about` "></p>
 
     <!-- About section -->
     <section class="container mb-5" id="about">
@@ -232,7 +232,138 @@
         </div>
     </section>
 
-    <p style="display: flex; justify-content: flex-end; margin-right: 90px; margin-top: 50px;"><i class="ri-arrow-down-double-fill"></i></p>   
+    <p style="display: flex; justify-content: flex-end; margin-right: 90px; margin-top: 50px;"><img src="asset/arrow.png" style="height: 30px;" onclick="location.href=`#Project`"></p>
+
+    <h1 style="text-align: center;margin-bottom: 43px;"  id="Project">Projects</h1>
+    <section class="container" id="Projects">
+        
+       
+            <div class="row container-project d-flex">
+
+                    <div class="col mt-4">
+
+                        <div class="card" style="width: 19rem;">
+                            <img src="asset/project01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Online Bookshop</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="d-flex gap-5">
+                                
+                                        <button class="m-lg-3 repo-button">Git Repo</button>
+                                        <button class="m-lg-3 demo-button">Demo</button>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mt-4">
+
+                        <div class="card" style="width: 19rem;">
+                            <img src="asset/project02.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Wheater App</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="d-flex gap-5">
+                                    <button class="m-lg-3 repo-button">Git Repo</button>
+                                    <button class="m-lg-3 demo-button">Demo</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mt-4">
+
+                        <div class="card" style="width: 19rem;">
+                            <img src="asset/project03.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">POS System</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="d-flex gap-5">
+                                    <button class="m-lg-3 repo-button">Git Repo</button>
+                                    <button class="m-lg-3 demo-button">Demo</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+    </section>
+
+
+    <section class="container " id="ContactME" style="margin-top: 150px;margin-bottom: 150px;">
+        <p style="text-align: center;">Contact Me On Email</p>
+        <h1 style="text-align: center;">Contact ME</h1>
+        
+        <div class="contaner-all mt-3">
+            <div class="contaner-box">
+                <div class="box">
+
+                    <img src="asset/email.png"> 
+             
+                    <a href="#">induwaravishwakantha90@gmail.com</a>
+                    
+                </div>
+                <div class="box2">
+                    <img src="asset/linkedin.png"> 
+                        <a href="">linkedin</a>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+
+
+    <!--Footer section-->
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container-fluid my-5">
+
+    <footer class="bg-dark text-center text-white">
+        <p style="display: flex; justify-content: flex-end; margin-right: 40px; margin-top: 50px;"><button class="Fotter-button" onclick="location.href=`#Logo`"><i class="ri-arrow-up-fill"></i></button></p>
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="ri-facebook-circle-line"></i></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="ri-twitter-x-line"></i></a>
+  
+        <!-- email -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="ri-mail-line"></i></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="ri-instagram-line"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="ri-linkedin-line"></i></a>
+        </a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="ri-github-fill"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2024 Copyright:
+      Induwara Vishwakantha
+      
+    </div>
+    <!-- Copyright -->
+  </footer>
+    
+  </div>
+  <!-- End of .container -->
+
 
     <script src="script/main.js"></script>
 </body>
