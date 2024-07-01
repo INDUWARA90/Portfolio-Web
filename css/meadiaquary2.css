@@ -11,25 +11,27 @@
         align-items: center;
         justify-content: center;
     }
-
     .details-container {
         margin-top: 20px;
-        margin-left: 58px;
-        width: 544px;
+        width: 668px;
     }
 
     .about-image {
-        height: 29vh;
-        margin-left: 189px;
+        display: block;
+        height: 40vh;
+        margin: auto;
+    }  
 
+    .contaianer-Skill{
+        width: 568px;
+        margin-left: 73px;
     }
+    
+    
+
 }
 
-
-
-
-
-@media (max-width: 575.98px) {
+@media (max-width: 800.98px) {
 
     /* About */
     .about-details-contanier,
@@ -45,22 +47,137 @@
 
     .details-container {
         margin-top: 20px;
-        margin-left: 14px;
-        width: 454px;
+        width: 650px;
     }
 
     .about-image {
-        height: 27vh;
-        margin-left: 115px;
+        display: block;
+        height: 40vh;
+        margin: auto;
+    }  
+
+    .contaianer-Skill{
+        width: 515px;
+        margin-left: 100px;
+    }
+
+    .Arrow-Container{
+        display: none;
     }
     
-    .contaner-box{
-       width: 450px;
-       
+
+}
+
+
+@media (max-width: 765.98px) {
+
+    /* About */
+    .about-details-contanier,
+    .about-containers {
+        display: block;
     }
-    .contaner-box a{
-        font-size: x-small;
+
+    .section-container {
+        display: block;
+        align-items: center;
+        justify-content: center;
     }
+
+    
+    .details-container {
+        margin-top: 20px;
+        width: 495px;
+    }
+
+    .about-image {
+        display: block;
+        height: 40vh;
+        margin: auto;
+    }  
+
+    .contaianer-Skill{
+        width: 515px;
+        margin-left: 10px;
+    }
+    .Arrow-Container{
+        display: none;
+    }
+
+}
+
+@media (max-width: 600.98px) {
+
+    /* About */
+    .about-details-contanier,
+    .about-containers {
+        display: block;
+    }
+
+    .section-container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .details-container {
+        margin-top: 20px;
+        width: 472px;
+    }
+
+    .about-image {
+        display: block;
+        height: 35vh;
+        margin: auto;
+    }    
+    
+    .contaianer-Skill{
+        width: 438px;
+        margin-left: 50px;
+    }
+    
+    .Arrow-Container{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 555.98px) {
+
+    /* About */
+    .about-details-contanier,
+    .about-containers {
+        display: block;
+    }
+
+    .section-container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .details-container {
+        margin-top: 20px;
+        width: 418px;
+        font-size: small;
+    }
+
+    .about-image {
+        display: block;
+        height: 30vh;
+        margin: auto;
+    }    
+
+    .contaianer-Skill{
+        width: 387px;
+        margin-left: 50px;
+    }
+
+    .Arrow-Container{
+        display: none;
+    }
+
 
 }
 
@@ -82,14 +199,27 @@
     .details-container {
         margin-top: 20px;
         margin-left: 0px;
-        width: 381px;
+        width: 358px;
+        font-size: small;
     }
 
     .about-image {
+        display: block;
         height: 20vh;
-        margin-left: 110px;
+        margin: auto;
+    }
+
+    .contaianer-Skill{
+        width: 354px;
+        margin-left: 34px;
+    }
+
+    .Arrow-Container{
+        display: none;
     }
 }
+
+
 
 @media (max-width: 390px) {
 
@@ -108,17 +238,23 @@
     .details-container {
         margin-top: 20px;
         margin-left: -9px;
-        width: 272px;
+        width: 305px;
     }
 
     .about-image {
-        height: 45vh;
-        margin-left: 60px;;
+        display: none;
       
+    }
+    .Arrow-Container{
+        display: none;
+    }
+    .contaianer-Skill {
+        width: 269px;
+        margin-left: 48px;
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 290px) {
 
     /* About */
     .about-details-contanier,
@@ -135,12 +271,19 @@
     .details-container {
         margin-top: 20px;
         margin-left: -9px;
-        width: 272px;
+        width: 235px;
     }
 
     .about-image {
         display: none;
       
+    }
+    .Arrow-Container{
+        display: none;
+    }
+    .contaianer-Skill {
+        width: 215px;
+        margin-left: 33px;
     }
 }
 
