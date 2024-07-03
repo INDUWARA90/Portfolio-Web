@@ -198,6 +198,9 @@
     .contaner-box{
         width: 489px;
     }
+    .contaner-box a{
+        font-size: small;
+    }
 
 }
 
@@ -250,6 +253,9 @@
     }
     .card-of-projects{
         margin-left: -14px;
+    }
+    .contaner-box a{
+        font-size: small;
     }
 }
 

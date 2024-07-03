@@ -10,22 +10,31 @@
     box-sizing: border-box;
     text-decoration: none;
 
+
 }
 
 :root{
-    --bg-color:#FBE9D0;
-
+    
+    --bg-color:#0B0C10;
+    --bg-color-Second:#1F2833;
+    --color1:#AAABB8;
+    --font-color:#66FCF1;
+    --font-color-Second:#45A29E;
 }
 
+p{
+    color: var(--font-color-Second);
+}
 
 /* ==============Navigation-bar================== */
 
 .Logo {
     text-decoration: none;
     cursor: default;
-    color:rgb(36,72,85);
+    color:var(--font-color);
     font-size: 2rem;
     font-weight: 900;
+
 }
 
 .conatainer-navgation-bar {
@@ -38,16 +47,16 @@
 
 .Navigation a {
     font-size: 1.3rem;
-    color: black;
+    color:var(--font-color);
     margin-left: 2rem;
     text-decoration: none;
 }
 
 .Navigation a:hover {
-    color: grey;
+    color:var(--color1);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: gray;
+    text-decoration-color:var(--color1);
 }
 .Navigation a.active{
     color: grey;
@@ -88,7 +97,8 @@
 .image-resize{
     height: 50vh;
     border-radius: 80%;
-    background-color: #FBE9D0;
+    
+    
 }
 
 
@@ -107,16 +117,16 @@
 
 #icon-resize{
   border-style: solid;
-  border: 1px solid black;
   padding: 10px;
   border-radius: 50px;
   margin-left: 4px;
+  background-color:var(--font-color);
 }
 
 #icon-resize:hover{
     padding: 15px;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
-    background-color: rgb(230,72,51);
+    box-shadow: 0px 0px 2px var(--font-color);
+    background-color: var(--color1);
     transition: all 0.2s ease-in-out;
     transform: translateY(-5px);
 }
@@ -131,20 +141,21 @@
 }
 
 .button-dowanlod-CV{
+  
     padding: 8px;
     margin-left: 100px;
     border-radius: 4px;
     height: 35px;
-    color: aliceblue;
+    color:var(--font-color);
     font-weight: 900;
-    background-color: rgb(135,79,65);
+    background-color: var(--bg-color-Second);
     transition: all 0.3s ease-in-out;
 }
 
 .button-dowanlod-CV:hover{
-    transform: translateY(-5px);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: #ffbd61;
+    background-color:var(--color1);
+    color: #0B0C10;
     border: 1px solid rgb(0, 0, 0);
 }
 .button-Contact-me{
@@ -152,16 +163,16 @@
     margin-left: 5px;
     border-radius: 4px;
     height: 35px;
-    color: aliceblue;
+    color:var(--font-color);
     font-weight: 900;
-    background-color: rgb(135,79,65);
+    background-color: var(--bg-color-Second);
     transition: all 0.3s ease-in-out;
 }
 
 .button-Contact-me:hover{
-    transform: translateY(-5px);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: #ffbd61;
+    background-color:var(--color1);
+    color: #0B0C10;
     border: 1px solid rgb(0, 0, 0);
 }
 
@@ -195,7 +206,7 @@
 .details-container{
     padding: 1.5rem;
     flex: 1;
-    background-color: #ffbd61;
+    background-color: var(--font-color-Second);
     border-radius: 7px;
     text-align: center;
 }
@@ -212,7 +223,7 @@
 /* Skils */
 
 .skills-container{
-    background-color: rgba(0,0,0,.5);
+    background-color:var(--bg-color-Second);
     color: #fff;
     width: 100%;
     height: 100%rem;
@@ -228,21 +239,21 @@
     text-align: center;
     margin-left: 20px;
     border-radius: 10px;
-    background-color: #edefdd;
+    background-color:var(--font-color-Second);
     height: 150px;
 }
 
 .skills-box p{
     margin-top: 5px;
     font-weight: bold;
-    color: black;
+    color:var(--bg-color);
 }
 
 /* Projects */
 #Projects{
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     border-radius: 28px;
-    background-color: #ffffff;
+    background-color:var(--bg-color-Second);
     align-items: center;
     justify-content: center;
     padding-left: 60px;
@@ -262,27 +273,36 @@
 .demo-button{
     width: 440px;
     border-radius: 8px;
-    background-color: white;
-    border: 1px solid black;
+    background-color:var(--color1);
 }
 
 .repo-button:hover{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: 1px solid black;
+    background-color:var(--color1);
+    color: var(--bg-color);
     transition: all 0.4s ease-in-out;
 }
 
 .demo-button:hover{
-    background-color: black;
+    background-color:var(--bg-color);
     color: white;
     transition: all 0.4s ease-in-out;
 }
 
 .card-of-projects{
+    border-radius: 7px;
     width: 19rem;
+    background-color: var(--font-color-Second);
+    box-shadow:  0 0 15px var(--font-color) ;
+    border: none;
 }
-
+.card-body{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:#8cccc9;
+}
+.card-body p{
+ color: var(--bg-color);
+}
 /*Contact ME  */
 
 .contaner-box{
@@ -290,7 +310,9 @@
     border-radius: 30px;
     height: 100px;
     display: flex;
-    border: 1px solid black;
+    background-color: var(--bg-color-Second);
+    border: none;
+    box-shadow:  0 0 15px var(--font-color) ;
 }
 
 .box{
@@ -308,7 +330,7 @@
 
 .box a{
    text-decoration: none;
-   color: black;
+   color:var(--font-color);
    font-weight: 700;
 
 }
@@ -328,16 +350,9 @@
     margin-right: 10px;
 }
 
-.box a{
-   text-decoration: none;
-   color: black;
-   font-weight: 700;
-   font-size: small;
-}
-
 .box2 a{
     text-decoration: none;
-    color: black;
+    color:var(--font-color);
     font-weight: 700;
  
 }
@@ -354,13 +369,13 @@
     width: 35px;
     height: 35px;
     margin-top: 30px;
-    background-color: blue;
+    background-color:var(--font-color);
     border-radius: 4px;
 }
 
 
 .Fotter-button:hover{
     
-    background-color:rgb(117, 117, 225) ;
+    background-color:var(--color1);
     
 }
