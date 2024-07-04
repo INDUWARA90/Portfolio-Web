@@ -80,7 +80,13 @@ p{
     background-color: rgb(0, 0, 0);
 }
 
+.Navigation a.nav-links-active{
+    color:var(--color1);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: gray;
 
+}
 
 
 /*================ homepage================ */
@@ -97,6 +103,7 @@ p{
 .image-resize{
     height: 50vh;
     border-radius: 80%;
+    box-shadow: 0 0px 40px var(--font-color);
     
     
 }
@@ -199,8 +206,8 @@ p{
 
 .about-image{
     border-radius: 20px;
-    background-color: #FBE9D0;
     height: 20rem;
+    border: 1px solid var(--font-color);
 }
 
 .details-container{
@@ -305,62 +312,56 @@ p{
 }
 /*Contact ME  */
 
-.contaner-box{
-    width: 600px;
-    border-radius: 30px;
-    height: 100px;
+
+
+form{
+    background-color:var(--bg-color-Second);
     display: flex;
-    background-color: var(--bg-color-Second);
-    border: none;
-    box-shadow:  0 0 15px var(--font-color) ;
-}
-
-.box{
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 75%;
-
-}
-
-.box img{
-    height: 70px;
-}
-
-.box a{
-   text-decoration: none;
-   color:var(--font-color);
-   font-weight: 700;
-
-}
-
-
-.box2{
-    
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 50%;
-}
-
-.box2 img{
-    height: 60px;
-    margin-left: -42px;
-    margin-right: 10px;
-}
-
-.box2 a{
-    text-decoration: none;
-    color:var(--font-color);
-    font-weight: 700;
- 
-}
-
-.contaner-all{
-    max-width: fit-content;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 19px;
     margin-left: auto;
     margin-right: auto;
+}
+form input,textarea{
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    background-color: var(--color1);
+    border-radius: 5px;
+    
+}
+
+textarea{
+    resize: none;
+}
+
+
+form button{
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin:20px auto 0 ;
+    border-radius: 30px;
+
+}
+.Form-details{
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Submit-button{
+    color: #0B0C10;
+    background-color: var(--font-color);
+}
+.Submit-button:hover{
+    box-shadow: 0 0  10px var(--font-color-Second);
+    color: white;
 }
 
 /* foooter */
@@ -378,4 +379,27 @@ p{
     
     background-color:var(--color1);
     
+}
+
+
+.Animatons1{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+    transition: all 0.4s ease-in-out;
+}
+
+.Animatons2{
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: moveup 0.5s linear forwards;
+    transition: all 0.4s ease-in-out;
+
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
