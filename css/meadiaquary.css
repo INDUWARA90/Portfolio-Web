@@ -194,8 +194,6 @@
         align-items: center;
         justify-content: center;
     }
-
-    
     .details-container {
         display: block;
         margin: auto;
@@ -383,11 +381,7 @@
     .contaner-box{
         width: 384px;
     }
-    .box a,
-    .box2 a{
-        font-size: xx-small;
-        margin-right: 50px;
-    }
+ 
 }
 
 
@@ -440,17 +434,6 @@
         width: 200px;
     }
 
-    .box{
-        margin-left: 15px;
-    }
-    .box2{
-        margin-left: 40px;
-    }
-    
-    .box a ,
-    .box2 a{
-        display: none;
-    }
 }
 
 @media (max-width: 290px) {
