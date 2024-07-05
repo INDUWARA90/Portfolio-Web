@@ -278,6 +278,7 @@ p{
 }
 
 .demo-button{
+    color: #0B0C10;
     width: 440px;
     border-radius: 8px;
     background-color:var(--color1);
@@ -337,6 +338,7 @@ form input,textarea{
 textarea{
     resize: none;
 }
+
 
 
 form button{
