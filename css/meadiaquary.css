@@ -121,7 +121,9 @@
         color: white;
         font-weight: bold;
     }
-
+    .homepage-content{
+        margin-top: 10px;
+    }
     .Navigation {
         position: absolute;
         left: -100%;
